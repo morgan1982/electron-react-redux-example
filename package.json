@@ -1,0 +1,32 @@
+{
+  "name": "create-react-app-redux",
+  "version": "0.1.0",
+  "main": "./electron-starter.js",
+  "private": true,
+  "devDependencies": {
+    "electron-rebuild": "^1.6.0",
+    "react-scripts": "^1.0.17"
+  },
+  "dependencies": {
+    "electron": "^1.7.9",
+    "knex": "^0.14.1",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "next",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "sanitize.css": "^5.0.0",
+    "sqlite3": "^3.1.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "electron": "electron .",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://cra-redux-router-thunk.herokuapp.com"
+}
